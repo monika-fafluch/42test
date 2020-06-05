@@ -1,0 +1,64 @@
+{% extends "test42/base.html" %}
+
+{% block title %}
+	Index
+{% endblock %}
+
+{% block container-fluid %}
+
+<div class="alert alert-info mt-5" role="alert">
+    <h5 class="text-center">Main info</h5>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center flex-column">
+  <div class="row mt-5">
+    <div class="col-sm">
+      <div class="card text-white bg-dark mb-3" style="min-width: 400px;">
+		<div class="card-body">
+		  <h5 class="card-title">Name</h5>
+		  <p class="card-text">Monika</p>
+		</div>
+	  </div>
+    </div>
+    <div class="col-sm">
+      <div class="card text-white bg-dark mb-3" style="min-width: 400px;">
+		<div class="card-body">
+		  <h5 class="card-title">Surname</h5>
+		  <p class="card-text">Kubiak</p>
+		</div>
+	  </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-sm">
+      <div class="card text-white bg-dark mb-3" style="min-width: 400px;">
+		<div class="card-body">
+		  <h5 class="card-title">Date of birth</h5>
+		  <p class="card-text">20.10.1991</p>
+		</div>
+	  </div>
+    </div>
+    <div class="col-sm">
+      <div class="card text-white bg-dark mb-3" style="min-width: 400px;">
+		<div class="card-body">
+		  <h5 class="card-title">Contacts</h5>
+		  <p class="card-text">Hardcoded example contacts</p>
+		</div>
+	  </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="card text-white bg-dark mb-3" style="min-width: 600px;">
+		<div class="card-body">
+		  <h5 class="card-title">Bio</h5>
+		  <p class="card-text">Lorem ipsum</p>
+		</div>
+	  </div>
+  </div>
+
+</div>
+
+
+{% endblock %}

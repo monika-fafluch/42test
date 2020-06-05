@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'test42'
 ]
 
 MIDDLEWARE = [
@@ -66,6 +67,9 @@ TEMPLATES = [
         },
     },
 ]
+
+FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'),)
+
 
 WSGI_APPLICATION = 'monika_test.wsgi.application'
 
