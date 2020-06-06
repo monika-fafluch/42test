@@ -1,0 +1,11 @@
+#base {
+	background-image: url('../img/42background.jpg');
+}
+.container_card {
+	min-width: 400px;
+}
+.container_card--wider {
+	min-width: 600px;
+}
+
+
